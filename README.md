@@ -31,7 +31,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 > but the parameter of "Speed" is changed everytime.
 > So our pattern "car" will look like this:
 
-<img src="/img/0_3.png" width="550" height="350">
+<img src="/img/0_3.png" width="650" height="450">
 
 
 
