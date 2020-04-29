@@ -21,7 +21,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 <img src="/img/0_1.png" width="350" height="250">
 
-> Then we will create a new pattern in our case *car* which has parameters of *Name , Brand, Color, Max Speed, Torque, Speed*
+> Then we will create a new pattern in our case *car* which has parameters of *NAME , Brand, Color, Max Speed, Torque, Speed*
 > as we have mentioned before.
 
 <img src="/img/0_2.png" width="650" height="350">
@@ -78,10 +78,26 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 <img src="/img/0_11.png" width="850" height="450">
 
-> So let's start configuring a gtid, as it can be seen, here we firstly can choose datasource
-
+> So let's start configuring a gtid. As it can be seen, here we firstly choose datasource "TDS_car" which we have created
 
 <img src="/img/0_12.png" width="850" height="450">
+
+
+> Then we choose JSON of config and edit it. The "field" value have to be the same as "fields" which are configured for TDS
+> **NAME , Brand, Color, Max_Speed, Torque, Speed**. Then compile and OK to save it.
+
+<img src="/img/0_13.png" width="850" height="450">
+
+
+> Then we can see our grid (table with dynamic data) on runtime page
+
+
+<img src="/img/0_14.png" width="850" height="450">
+
+
+In order to make it more pretty, we can change and add some paramters related to KENDO UI documentation.
+
+
 
 
 
