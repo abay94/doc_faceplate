@@ -37,24 +37,24 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 > Then, we will create tags with pattern "car", what we have created.
 
-<kbd><img src="/img/0_4.png" width="850" height="450"></kbd>
+<kbd><img src="/img/0.4.png" width="850" height="450"></kbd>
 
 
 
 > After that we will create (отчет)
 
-<kbd><img src="/img/0_5.png" width="850" height="450"></kbd>
+<kbd><img src="/img/0.5.png" width="850" height="450"></kbd>
 
 
 > Then we will drang and drop elements of table datasource (TDS) and grid 
 
-<kbd><img src="/img/0_6.png" width="850" height="450"></kbd>
+<kbd><img src="/img/0.6.png" width="850" height="450"></kbd>
 
 
 > By clicking twice on TDS, we can configure it, here we give a name for it
 
 
-<kbd><img src="/img/0_7.png" width="850" height="450"></kbd>
+<kbd><img src="/img/0.7.png" width="850" height="450"></kbd>
 
 
 > The main configurations will be made here on data. Here we choosed "CAR" as source table, it means that this TDS can handle > all tags with pattern of "CAR" what we have created before.
