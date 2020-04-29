@@ -19,7 +19,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 > Create tags for each car, and as for tag pattern (шаблон), it needs to create a new one. So let's create a tag pattern, for > that we click editor to choose a patterns (there are two option : *tags, patterns*)
 
-<img src="/img/0_1.png" width="350" height="250">
+<kbd><img src="/img/0_1.png" width="550" height="250"></kbd>
 
 > Then we will create a new pattern in our case *car* which has parameters of *NAME , Brand, Color, Max Speed, Torque, Speed*
 > as we have mentioned before.
