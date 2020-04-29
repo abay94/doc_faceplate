@@ -14,4 +14,4 @@ For instance, we will show a list of cars, with related dynamic and static param
 ### All steps
 
 Firstly create a folder 
-![GitHub Logo](/img/logo.png)
+![GitHub Logo](/img/1.png)
