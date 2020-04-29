@@ -14,4 +14,5 @@ For instance, we will show a list of cars, with related dynamic and static param
 ### All steps
 
 Firstly create a folder 
-<img src="/img/1.png" width="250" height="250">
+
+<img src="/img/1.png" width="350" height="250">
