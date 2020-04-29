@@ -9,7 +9,7 @@ As datasource we can use dynamic and static data, which can be added by Table da
 
 ## Let's configure grid with dynamic datasource
 
-As an example, we will show a list of cars, with related dynamic and static paramaters, correspondingly for each car. As an output, we will end up with a table with Header names of : **Name , Brand, Color, Max Speed, Torque, Speed**
+As an example, we will show a list of cars, with related dynamic and static paramaters, correspondingly for each car. As an output, we will end up with a table with Header names of : **Name , Brand, Color, Max_Speed, Torque, Speed**
 
 ### All steps
 
@@ -21,7 +21,8 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 <img src="/img/0_1.png" width="350" height="250">
 
-> Then we will create a new pattern in our case *car* which has parameters of *Name , Brand, Color, Max Speed, Torque, Speed* > as we have mentioned before.
+> Then we will create a new pattern in our case *car* which has parameters of *Name , Brand, Color, Max Speed, Torque, Speed*
+> as we have mentioned before.
 
 <img src="/img/0_2.png" width="650" height="350">
 
@@ -33,6 +34,54 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 <img src="/img/0_3.png" width="850" height="450">
 
+
+> Then, we will create tags with pattern "car", what we have created.
+
+<img src="/img/0_4.png" width="850" height="450">
+
+
+
+> After that we will create (отчет)
+
+<img src="/img/0_5.png" width="850" height="450">
+
+
+> Then we will drang and drop elements of table datasource (TDS) and grid 
+
+<img src="/img/0_6.png" width="850" height="450">
+
+
+> By clicking twice on TDS, we can configure it, here we give a name for it
+
+
+<img src="/img/0_7.png" width="850" height="450">
+
+
+> The main configurations will be made here on data. Here we choosed "CAR" as source table, it means that this TDS can handle > all tags with pattern of "CAR" what we have created before.
+
+<img src="/img/0_8.png" width="850" height="450">
+
+
+> Not least and not last important configuration will be made in fields. Here, we shows which fields (parameters) will be used 
+> in grid
+
+<img src="/img/0_9.png" width="850" height="450">
+
+
+> After that we can give a base filter as follows. Here, the json means that TDS will take only those tags with pattern of 
+> "CAR" and direction of where it locates ".PATH:/root/PROJECT/TAGS/NEW BRANCH/Test for grid". Then compile and OK to save it.
+
+<img src="/img/0_10.png" width="850" height="450">
+
+
+> For option subscribe we choose "true" for dynamic changing each cells of grid.
+
+<img src="/img/0_11.png" width="850" height="450">
+
+> So let's start configuring a gtid, as it can be seen, here we firstly can choose datasource
+
+
+<img src="/img/0_12.png" width="850" height="450">
 
 
 
