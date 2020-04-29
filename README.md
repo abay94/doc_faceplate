@@ -95,7 +95,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 <img src="/img/0_14.png" width="850" height="450">
 
 
-In order to make it more pretty, we can change and add some paramters related to KENDO UI documentation.
+In order to make it more pretty, we can change and add some paramters in JSON of config, related to KENDO UI documentation.
 
 
 
