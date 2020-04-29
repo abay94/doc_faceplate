@@ -23,7 +23,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 > Then we will create a new pattern in our case *car* which has parameters of *Name , Brand, Color, Max Speed, Torque, Speed* > as we have mentioned before.
 
-<img src="/img/0_2.png" width="550" height="350">
+<img src="/img/0_2.png" width="650" height="350">
 
 > While we adding a field we have to write name of parameter like "Brand" and type "string" and  storage type "ramdisc". 
 > The  reason of choosing between ramdisc or ram depends on how the value of parameter needs to be 
@@ -31,7 +31,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 > but the parameter of "Speed" is changed everytime.
 > So our pattern "car" will look like this:
 
-<img src="/img/0_3.png" width="650" height="450">
+<img src="/img/0_3.png" width="850" height="450">
 
 
 
