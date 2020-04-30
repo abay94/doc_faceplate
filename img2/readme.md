@@ -33,7 +33,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 > but the parameter of "Speed" is changed everytime.
 > So our pattern "car" will look like this:
 
-<kbd><img src="0.4.png" width="850" height="450"></kbd>
+<kbd><img src="0_4.png" width="850" height="450"></kbd>
 
 
 > Then, we will create tags with pattern "car", what we have created.
