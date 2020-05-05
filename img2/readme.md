@@ -14,11 +14,24 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 ### All steps
 
-> Firstly create a folder 
+1. Create a folder
+2. Create a new pattern
+3. Create tags
+4. Create sceen (отчёт)
+5. Creating Table Datasource and Grid elements
+6. Configuration of Table Datasource and Grid elements
+
+
+
+**Create a folder**
+
+> Firstly we need to create a folder for organizing tags and mnemonics
 
 <kbd><img src="0_1.png" width="350" height="250"></kbd>
 
-> Create tags for each car, and as for tag pattern (шаблон), it needs to create a new one. So let's create a tag pattern, for > that we click editor to choose a patterns (there are two option : *tags, patterns*)
+**Create a new pattern**
+
+> Create tags for each car, and as for tag pattern (шаблон), it needs to create a new one. So let's create a tag pattern, for that we click editor to choose a patterns (there are two option : *tags, patterns*)
 
 <kbd><img src="0_2.png" width="550" height="250"></kbd>
 
@@ -36,21 +49,25 @@ As an example, we will show a list of cars, with related dynamic and static para
 <kbd><img src="0_4.png" width="850" height="450"></kbd>
 
 
+**Create tags**
+
 > Then, we will create tags with pattern "car", what we have created.
 
 <kbd><img src="0.5.png" width="850" height="450"></kbd>
 
-
+**Create sceen (отчёт)**
 
 > After that we will create (отчет)
 
 <kbd><img src="0.6.png" width="850" height="450"></kbd>
 
+**Creating Table Datasource and Grid elements**
 
-> Then we will drang and drop elements of table datasource (TDS) and grid 
+> Then we will drag and drop elements of table datasource (TDS) and grid 
 
 <kbd><img src="0.7.png" width="850" height="450"></kbd>
 
+**Configuration of Table Datasource and Grid elements**
 
 > By clicking twice on TDS, we can configure it, here we give a name for it
 
