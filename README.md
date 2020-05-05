@@ -1,102 +1,122 @@
-# Work With Grid Element
+# Работа с элементом Grid(таблицы)
 
-Grid element is documented well with demos in [Kendo UI](https://demos.telerik.com/kendo-ui/grid/index). In faceplate we can use it in the following manner:
+Элемент grid хорошо документирован с помощью demo примеров в [Kendo UI](https://demos.telerik.com/kendo-ui/grid/index). В faceplate мы можем использовать его следующим образом:
 
-> 1. Use in mnemonics
-> 2. Use in (Отчеты)
+> 1. Использовать в Мнемосхемах
+> 2. Использовать в Отчетах
 
-As datasource we can use dynamic and static data, which can be added by Table datasource, TimeSeries data and JSON datasource.
+В качестве источника данных мы можем использовать динамические и статические данные, которые могут быть добавлены с помощью Table Datasource, TimeSeries Datasource и JSON Datasource.
 
-## Let's configure grid with dynamic datasource
+## Давайте настроим таблицу с динамическим источником данных
 
-As an example, we will show a list of cars, with related dynamic and static paramaters, correspondingly for each car. As an output, we will end up with a table with Header names of : **Name , Brand, Color, Max_Speed, Torque, Speed**
+В качестве примера мы покажем список автомобилей с соответствующими динамическими и статическими параметрами, соответственно для каждого автомобиля. В результате мы получим таблицу с заголовкой : **Name , Brand, Color, Max_Speed, Torque, Speed**
 
-### All steps
+### Все шаги
 
-> Firstly create a folder 
+1. Cоздать папку
+2. Создать новый шаблон
+3. Создать теги
+4. Создать отчёт
+5. Создать Table Datasource и элемент grid
+6. Конфигурация Table Datasource и элемент grid
+
+
+
+**Cоздать папку**
+
+> Для начала нам нужно создать папку для организации тегов и мнемоники.
 
 <kbd><img src="/img/1.png" width="350" height="250"></kbd>
 
-> Create tags for each car, and as for tag pattern (шаблон), it needs to create a new one. So let's create a tag pattern, for > that we click editor to choose a patterns (there are two option : *tags, patterns*)
+**Создать новый шаблон**
+
+> Создайте теги для каждого автомобиля, а для шаблона тега (шаблона) необходимо создать новый. Итак, давайте создадим шаблон
+> тега, для которого мы нажимаем на редактор, чтобы выбрать шаблоны (есть два варианта: * теги, шаблоны *)
 
 <kbd><img src="/img/0_1.png" width="550" height="250"></kbd>
 
-> Then we will create a new pattern in our case *car* which has parameters of *NAME , Brand, Color, Max Speed, Torque, Speed*
-> as we have mentioned before.
+> Затем мы создадим новый шаблон, в нашем случае *car*, который имеет параметры *NAME, Brand, Color, Max Speed, Torque, Speed*
+> Как мы уже упоминали ранее.
 
 <kbd><img src="/img/0_2.png" width="650" height="350"></kbd>
 
-> While we adding a field we have to write name of parameter like "Brand" and type "string" and  storage type "ramdisc". 
-> The  reason of choosing between ramdisc or ram depends on how the value of parameter needs to be 
-> saved in hard disc. For example the parameter Name is not changed by the time more frequently and needs to be saved in disc
-> but the parameter of "Speed" is changed everytime.
-> So our pattern "car" will look like this:
+> Когда мы добавляем поле, мы должны написать имя параметра, такого как «Brand», тип «string» и тип хранилища «ramdisc».
+> Причина выбора между ramdisc или ram зависит от того, как значение параметра должно быть
+> сохранено на жестком диске. Например, имя параметра не изменяется по времени чаще и его необходимо сохранить на диск,
+> но параметр «Speed» меняется каждый раз.
+> Так что наш шаблон "car" будет выглядеть так:
 
 <kbd><img src="/img/0_3.png" width="850" height="450"></kbd>
 
+**Создать теги**
 
-> Then, we will create tags with pattern "car", what we have created.
+> Затем мы создадим теги с шаблоном "car", что мы создали.
 
 <kbd><img src="/img/0.4.png" width="850" height="450"></kbd>
 
 
+**Создать отчёт**
 
-> After that we will create (отчет)
+> После этого мы создаем отчеты
 
 <kbd><img src="/img/0.5.png" width="850" height="450"></kbd>
 
+**Создать Table Datasource и элемент grid**
 
-> Then we will drang and drop elements of table datasource (TDS) and grid 
+> Затем мы будем перетаскивать элементы Table Datasource (TDS) и grid.
 
 <kbd><img src="/img/0.6.png" width="850" height="450"></kbd>
 
+**Конфигурация Table Datasource и элемент grid**
 
-> By clicking twice on TDS, we can configure it, here we give a name for it
-
+> Дважды нажав на TDS, мы можем настроить его, здесь мы задаем имя для него
 
 <kbd><img src="/img/0.7.png" width="850" height="450"></kbd>
 
 
-> The main configurations will be made here on data. Here we choosed "CAR" as source table, it means that this TDS can handle > all tags with pattern of "CAR" what we have created before.
+> Основные конфигурации будут сделаны здесь на данных. Здесь мы выбрали «CAR» в качестве исходной таблицы, это означает, что
+> этот TDS может обрабатывать все теги с шаблоном «CAR», который мы создали ранее.
 
 <kbd><img src="/img/0_8.png" width="850" height="450"></kbd>
 
 
-> Not least and not last important configuration will be made in fields. Here, we shows which fields (parameters) will be used 
-> in grid
+> Не в последнюю очередь и не последние важные настройки будут сделаны в fields. Здесь мы показываем, какие поля (параметры)
+> будут использоваться в таблице
 
 <kbd><img src="/img/0_9.png" width="850" height="450"></kbd>
 
 
-> After that we can give a base filter as follows. Here, the json means that TDS will take only those tags with pattern of 
-> "CAR" and direction of where it locates ".PATH:/root/PROJECT/TAGS/NEW BRANCH/Test for grid". Then compile and OK to save it.
+> После этого мы можем дать базовый фильтр следующим образом. Здесь JSON означает, что TDS будет принимать только те теги с 
+> шаблоном "CAR" и направление, в котором он находится ".PATH:/root/PROJECT/TAGS/NEW BRANCH/Test for grid". Затем 
+> скомпилируйте и ОК, чтобы сохранить его.
 
 <kbd><img src="/img/0_10.png" width="850" height="450"></kbd>
 
 
-> For option subscribe we choose "true" for dynamic changing each cells of grid.
+> Для опции подписки мы выбираем "true" для динамического изменения каждой ячейки таблицы.
 
 <kbd><img src="/img/0_11.png" width="850" height="450"></kbd>
 
-> So let's start configuring a gtid. As it can be seen, here we firstly choose datasource "TDS_car" which we have created
+> Итак, давайте начнем настройку grid. Как видно, здесь мы сначала выбираем источник данных "TDS_car", который мы создали
 
 <kbd><img src="/img/0_12.png" width="850" height="450"></kbd>
 
 
-> Then we choose JSON of config and edit it. The "field" value have to be the same as "fields" which are configured for TDS
-> **NAME , Brand, Color, Max_Speed, Torque, Speed**. Then compile and OK to save it.
+> Затем мы выбираем JSON из config и редактируем его. Значение "field" должно совпадать с "fields", которые настроены для TDS
+> **NAME , Brand, Color, Max_Speed, Torque, Speed**. Затем скомпилируйте и ОК, чтобы сохранить его.
 
 <kbd><img src="/img/0_13.png" width="850" height="450"></kbd>
 
 
-> Then we can see our grid (table with dynamic data) on runtime page
+> Затем мы можем увидеть нашу сетку (таблицу с динамическими данными) на странице времени выполнения
 
 
 <kbd><img src="/img/0_14.png" width="850" height="450"></kbd>
 
 
 In order to make it more pretty, we can change and add some paramters in JSON of config, related to KENDO UI documentation.
-
+Чтобы сделать его более красивым, мы можем изменить и добавить некоторые параметры в JSON или config, как показано на
+документаций по пользовательскому интерфейсу KENDO.
 
 
 
