@@ -17,7 +17,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 1. Create a folder
 2. Create a new pattern
 3. Create tags
-4. Create sceen (отчёт)
+4. Create screen (отчёт)
 5. Creating Table Datasource and Grid elements
 6. Configuration of Table Datasource and Grid elements
 
@@ -40,9 +40,9 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 <kbd><img src="0_3.png" width="650" height="350"></kbd>
 
-> While we adding a field we have to write name of parameter like "Brand" and type "string" and  storage type "ramdisc". 
+> While we adding a field we have to write name of parameters like "Brand" and type "string" and  storage type "ramdisc". 
 > The  reason of choosing between ramdisc or ram depends on how the value of parameter needs to be 
-> saved in hard disc. For example the parameter Name is not changed by the time more frequently and needs to be saved in disc
+> saved in hard disc. For example the parameter Name is not changed by the time more frequently and needs to be saved in disc,
 > but the parameter of "Speed" is changed everytime.
 > So our pattern "car" will look like this:
 
@@ -55,7 +55,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 <kbd><img src="0.5.png" width="850" height="450"></kbd>
 
-**Create sceen (отчёт)**
+**Create screen (отчёт)**
 
 > After that we will create (отчет)
 
@@ -75,7 +75,8 @@ As an example, we will show a list of cars, with related dynamic and static para
 <kbd><img src="0_8.png" width="850" height="450"></kbd>
 
 
-> The main configurations will be made here on data. Here we choosed "CAR" as source table, it means that this TDS can handle > all tags with pattern of "CAR" what we have created before.
+> The main configuration will be made here on data. Here we choosed "CAR" as source table, it means that this TDS can handle 
+> all tags with pattern of "CAR" what we have created before.
 
 <kbd><img src="0_9.png" width="850" height="450"></kbd>
 
@@ -96,7 +97,7 @@ As an example, we will show a list of cars, with related dynamic and static para
 
 <kbd><img src="0_12.png" width="850" height="450"></kbd>
 
-> So let's start configuring a gtid. As it can be seen, here we firstly choose datasource "TDS_car" which we have created
+> So let's start configuring a grid. As it can be seen, here we firstly choose datasource "TDS_car" which we have created
 
 <kbd><img src="0_13.png" width="850" height="450"></kbd>
 
